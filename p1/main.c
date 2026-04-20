@@ -6,19 +6,21 @@ int main(void){
     scanf("%d",&guess);
     
     do {
-        count++;
         
+        scanf("%d, &guess);
+        count++;
+            
         if(answer > guess){
-          printf("%d<?",guess,guess);
+          printf("%d<?",guess);
         }
         else if(answer < guess){
-            printf("%d>?", guess, guess);
+            printf("%d>?", gues);
         }
         else {
-            printf("%d==?",guess, guess);
+            printf("%d==?",guess);
         }
     } while(guess != answer);
     
-    printf("%d->", guess,count);
+    printf("%d->", count);
     return 0;
 }
