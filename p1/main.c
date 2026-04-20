@@ -22,6 +22,3 @@ int main(void){
     printf("%d->", guess,count);
     return 0;
 }
-
-
-
