@@ -2,9 +2,10 @@
 int main(void){
     int answer, guess;
     int count = 0;
+
+    scanf("%d",&guess);
     
     do {
-        scanf("%d",&guess);
         count++;
         
         if(answer > guess){
@@ -18,7 +19,8 @@ int main(void){
         }
     } while(guess != answer);
     
-    printf("%d->시도횟수는 %d회", guess,count);
+    printf("%d->", guess,count);
+    return 0;
 }
 
 
