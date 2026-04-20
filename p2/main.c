@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main() {
-    int N; // 입력될 문자의 개수
+int main(void) {
+    int N; // 입력될 문자의 개수를 N이란 변수로 선언한다.
     scanf("%d", &N); // 입력될 문자의 개수(정수)를 입력받음.
 
     int min_cnt = 0 ;  //현재 연속해서 나오고 있는 소문자 개수를 세는 카운터
