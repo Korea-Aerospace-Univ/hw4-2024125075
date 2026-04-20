@@ -22,5 +22,6 @@ int main(void){
     } while(guess != answer); //do를 다 실행하고 난 뒤에는 while을 실행하는데 내가 맞추려고 입력한 값이 정답이 아니면 do로 다시 돌아가 반복한다.
     
     printf("%d->", count);  // 여태까지 입력했던 수를 센 count를 불러와 출력을 한다.
+    
     return 0;
 }
