@@ -7,7 +7,7 @@ int main(void){
     
     do {
         
-        scanf("%d, &guess);
+        scanf("%d", &guess);
         count++;
             
         if(answer > guess){
