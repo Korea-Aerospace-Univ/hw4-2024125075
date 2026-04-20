@@ -14,7 +14,7 @@ int main(void){
           printf("%d<?",guess); // guess값으로 입력한 정수에 <?를 붙여 출력한다.
         }
         else if(answer < guess){ //if 조건문이 false고 만약 guess값이 answer값보다 클 때는
-            printf("%d>?", guess); guess 값을 불러와 >?와 함께 출력한다.
+            printf("%d>?", guess); // guess 값을 불러와 >?와 함께 출력한다.
         }
         else { // 위 두개의 조건식이 모두 아닐 때는
             printf("%d==?",guess); //guess값을 정수로 ==? 와 함께 출력한다.
